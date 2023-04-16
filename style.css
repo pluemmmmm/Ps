@@ -1,0 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #227aa0;
+}
+.wrapper {
+    background: #fff;
+    width: 450px;
+    padding: 25px;
+    border-radius: 10px;
+}
+.wrapper .pass-field {
+    height: 65px;
+    width: 100%;
+    position: relative;
+}
+.pass-field input {
+    width: 100%;
+    height: 100%;
+    padding: 0 17px;
+    outline: none;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    border: 1px solid #999;
+}
+.pass-field i {
+    right: 18px;
+    top: 50%;
+    color: #999;
+    font-size: 1.2rem;
+    cursor: pointer;
+    position: absolute;
+    transform: translateY(-50%);
+}
+.wrapper .content {
+    margin: 20px 0 10px;
+}
+.content p {
+    font-size: 1.3rem;
+}
+.content .requirement-list {
+    margin-top: 20px;
+}
+.requirement-list li {
+    list-style: none;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+.requirement-list li i {
+    font-size: 0.6rem;
+    color: #eb6b86;
+    width: 22px;
+}
+.requirement-list li.valid i {
+    font-size: 0.7rem;
+    color: #27a50e;
+}
+.requirement-list li i span {
+    margin-left: 12px;
+}
+.requirement-list li.valid span {
+    color: #999;
+}
